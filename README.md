@@ -1,12 +1,45 @@
-# React + Vite
+# Guns & Codes - Landing Page 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deploy on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000?style=for-the-badge&logo=vercel)](https://tusitio.vercel.app)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- TailwindCSS
+- Vercel (Hosting)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Vista previa
+
+👉 [Ver Landing Page en vivo](https://tusitio.vercel.app)
+
+---
+
+## 🚀 Funcionalidades principales
+
+- Hero de entrada con imagen decorativa
+- Sección de servicios
+- Sección sobre nosotros (About Us)
+- Entregables interactivos: vista de PDFs en modal superpuesto
+- Footer elegante con redes sociales
+- Animaciones suaves en cada sección
+- Diseño 100% responsive (mobile/tablet/desktop)
+
+---
+
+## 📦 Instalación local
+
+```bash
+git clone https://github.com/tu-usuario/landing-page.git
+cd landing-page
+npm install
+npm run dev
+
+
+
