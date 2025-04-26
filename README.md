@@ -6,6 +6,9 @@
 
 ---
 
+Bienvenido a la landing page oficial de **Guns & Codes**.  
+Un sitio moderno, responsive y diseñado para impactar visualmente.
+
 ## 🛠 Tecnologías utilizadas
 
 - React
@@ -17,7 +20,7 @@
 
 ## 📸 Vista previa
 
-👉 [Ver Landing Page en vivo](https://tusitio.vercel.app)
+👉 [Ver Landing Page en vivo](https://guns-and-codes.vercel.app/)
 
 ---
 
