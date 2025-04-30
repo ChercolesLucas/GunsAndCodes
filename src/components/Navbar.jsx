@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { FaFacebookF, FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaX, FaXTwitter } from 'react-icons/fa6';
 
 const Navbar = () => {
   return (
@@ -24,7 +25,7 @@ const Navbar = () => {
 
       <div className="flex-1 flex justify-end items-center gap-4 md:gap-6 text-xl">
         <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaFacebookF /></a>
-        <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaTwitter /></a>
+        <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaXTwitter /></a>
         <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaInstagram /></a>
         <a href="https://github.com/ChercolesLucas/GunsAndCodes" className="hover:text-gray-400 transition-colors duration-300"><FaGithub/></a>
         <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaLinkedin /></a>

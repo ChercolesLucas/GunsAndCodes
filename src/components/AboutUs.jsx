@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section
       id="about"
-      className="px-8 md:px-24 py-24 bg-[#1f1e1e] text-white"
+      className="px-8 md:px-24 py-24  text-white"
     >
       <h2 className="text-[32px] md:text-[48px] font-bold mb-8 leading-tight animate-fade-in">
         ¿QUIENES SOMOS?

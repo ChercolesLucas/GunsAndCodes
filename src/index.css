@@ -27,3 +27,12 @@ body {
 .animate-fade-in {
   animation: fade-in 0.8s ease-out forwards;
 }
+
+.contenedorHero {
+  background-image: url('/fondo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -700px -90px;
+ /* Izquierda y 80% desde el top */
+
+}
