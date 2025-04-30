@@ -35,7 +35,7 @@ const Services = () => {
         <img
           src="/Celular.png"
           alt="Aplicaciones móviles"
-          className="max-w-[360px] md:max-w-[380px] drop-shadow-xl"
+          className="max-w-[600px] md:max-w-[600px] drop-shadow-xl"
         />
       </div>
     </section>

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="relative flex flex-col justify-center items-start px-6 md:px-20 pt-32 md:pt-48 pb-24 h-screen bg-[#191818] overflow-hidden"
+      className="relative flex flex-col justify-center items-start px-6 md:px-20 pt-32 md:pt-48 pb-24 bg-[#1f1e1e] overflow-hidden"
     >
 
       {/* Texto */}
