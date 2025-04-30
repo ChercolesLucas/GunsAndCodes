@@ -24,7 +24,7 @@ const Hero = () => {
         <img
           src="/vaquero.png"
           alt="Aplicaciones móviles"
-          className="max-w-[400px] md:max-w-[400px] drop-shadow-xl scale-x-[-1]"
+          className="max-w-[400px] md:max-w-[400px] drop-shadow-amber-50 scale-x-[-1] z-10"
         />
       </div>
     </div>

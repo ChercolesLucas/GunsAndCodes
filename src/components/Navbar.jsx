@@ -5,7 +5,7 @@ import { FaX, FaXTwitter } from 'react-icons/fa6';
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 z-50 bg-[#191818] flex items-center justify-between px-8 md:px-24 py-4 shadow-md">
+    <header className="sticky top-0 z-50 bg-[#191818] flex items-center justify-between px-8 md:px-24 py-4 shadow-md ">
       
       <nav className="flex-1">
         <ul className="flex gap-4 md:gap-6 text-sm font-semibold  tracking-wide justify-start">

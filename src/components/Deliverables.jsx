@@ -8,7 +8,7 @@ const Deliverables = () => {
   return (
     <section
       id="entregables"
-      className="px-8 md:px-24 py-24 bg-[#1f1e1e] text-white"
+      className="px-8 md:px-24 py-24 bg-[#1f1e1e] text-white " 
     >
       {/* Título + descripción */}
       <div className="mb-16 max-w-3xl">

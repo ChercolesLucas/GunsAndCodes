@@ -4,8 +4,17 @@ const AboutUs = () => {
   return (
     <section
       id="about"
-      className="px-8 md:px-24 py-24  text-white"
+      className=" text-white relative flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-24 gap-12 md:gap-24 "
     >
+      <div className="flex-1 flex justify-center animate-fade-in delay-300">
+        <img
+          src="/aboutus.png"
+          alt="Aplicaciones móviles"
+          className="max-w-[400px] md:max-w-[400px] drop-shadow-amber-50 "
+        />
+      </div>
+
+      <div className="flex-1 flex flex-col items-start justify-center animate-fade-in delay-300">  
       <h2 className="text-[32px] md:text-[48px] font-bold mb-8 leading-tight animate-fade-in">
         ¿QUIENES SOMOS?
       </h2>
@@ -31,10 +40,10 @@ const AboutUs = () => {
       En el corazón de nuestro enfoque está la creencia de que la tecnología bien gestionada puede ser un catalizador del éxito empresarial. Trabajamos en estrecha colaboración con empresas líderes para brindar soluciones tecnológicas que impulsen la innovación y el crecimiento.      
       </p>
 
+      
       <h3 className="pt-[30px] text-[24px] md:text-[24px] font-bold mb-8 leading-tight animate-fade-in">
         ¿Que nos distingue?
       </h3>
-
       <p className="max-w-4xl text-white/80 text-lg md:text-xl leading-relaxed animate-fade-in delay-150">
       Compromiso Local: Somos una empresa profundamente arraigada en la comunidad de Luján, lo que nos permite entender y abordar las necesidades únicas de nuestra región.
       Compromiso con la innovación: En G&C, abrazamos la innovación y siempre buscamos maneras de mejorar y evolucionar nuestros servicios para mantenernos a la vanguardia de la industria.
@@ -45,6 +54,8 @@ const AboutUs = () => {
       En Guns&Codes estamos decididos a simplificar la tecnología para su empresa, permitiendo centrarse en lo que mejor hace. Nuestra misión es su éxito, y estamos comprometidos a ser su socio tecnológico de confianza en esta emocionante jornada hacia el futuro.
 
       </p>
+      
+      </div>
 
     </section>
   );

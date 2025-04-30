@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <section
       id="servicios"
-      className="relative bg-[#1f1e1e] flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-24 gap-12 md:gap-24"
+      className="relative bg-[#1f1e1e] flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-24 gap-12 md:gap-24 h-screen"
     >
       {/* Columna izquierda - Texto */}
       <div className="flex-1">
