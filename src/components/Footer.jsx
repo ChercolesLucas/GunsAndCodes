@@ -8,11 +8,15 @@ const Footer = () => {
       {/* Contenedor principal */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
 
-        {/* Logo */}
-        <div className="text-center text-sm md:text-base font-bold leading-tight tracking-widest">
-          <p>GUNS&</p>
-          <p>CODES</p>
-        </div>
+      {/* Logo */}
+      <div className="text-center">
+        <img
+        src="/logo.png"
+        alt="Guns & Codes logo"
+        className="h-10 md:h-15 w-auto mx-auto"
+        />
+</div>
+
 
         {/* Navegación */}
         <ul className="flex flex-wrap gap-6 text-sm uppercase tracking-wide justify-center text-white/70 hover:text-white transition-all">

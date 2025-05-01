@@ -1,48 +1,50 @@
 # Guns & Codes - Landing Page 🚀
 
-[![Deploy on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000?style=for-the-badge&logo=vercel)](https://tusitio.vercel.app)
+[![Deploy on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000?style=for-the-badge&logo=vercel)](https://guns-and-codes.vercel.app/)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
----
-
-Bienvenido a la landing page oficial de **Guns & Codes**.  
-Un sitio moderno, responsive y diseñado para impactar visualmente.
-
-## 🛠 Tecnologías utilizadas
-
-- React
-- Vite
-- TailwindCSS
-- Vercel (Hosting)
 
 ---
 
-## 📸 Vista previa
+## 🧠 Tecnologías utilizadas
 
-👉 [Ver Landing Page en vivo](https://guns-and-codes.vercel.app/)
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 🚀 Vercel (Hosting)
+- 📁 Google Drive (PDF viewer)
+- 📦 React Icons
 
 ---
 
-## 🚀 Funcionalidades principales
+## ✨ Funcionalidades principales
 
-- Hero de entrada con imagen decorativa
-- Sección de servicios
-- Sección sobre nosotros (About Us)
-- Entregables interactivos: vista de PDFs en modal superpuesto
-- Footer elegante con redes sociales
-- Animaciones suaves en cada sección
-- Diseño 100% responsive (mobile/tablet/desktop)
+- ✅ Navbar sticky y responsive con menú hamburguesa en mobile
+- ✅ Logo con imagen (`logo.png`) en Navbar y Footer
+- ✅ Hero section con tipografía bold y fondo en gradiente
+- ✅ Sección de Servicios con layout responsive y animaciones
+- ✅ Sección “About Us” con texto en ruso y diseño adaptado
+- ✅ Entregables interactivos que abren PDF en un modal fullscreen (estilo Google Drive)
+- ✅ Footer con enlaces rápidos, logo y redes sociales
+- ✅ Animaciones suaves (`fade-in`) en cada bloque
+- ✅ 100% responsive para desktop, tablet y mobile
+
+---
+
+## 🔗 Enlace en producción
+
+[![Deploy on Vercel](https://img.shields.io/badge/Ver%20sitio%20en%20vivo-Vercel-black?style=for-the-badge&logo=vercel)](https://guns-and-codes.vercel.app/)
 
 ---
 
 ## 📦 Instalación local
 
 ```bash
-git clone https://github.com/tu-usuario/landing-page.git
-cd landing-page
+git clone https://github.com/ChercolesLucas/GunsAndCodes.git
+cd GunsAndCodes
 npm install
 npm run dev
+
 
 
 

@@ -18,10 +18,15 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-[#191818] shadow-md text-white ">
       
       <div className="flex items-center justify-between px-6 md:px-24 py-4">
-        <div className="text-center text-sm md:text-lg font-bold leading-tight tracking-widest">
-          <p>GUNS&</p>
-          <p>CODES</p>
+        {/* Logo como imagen */}
+        <div className="text-center">
+          <img
+            src="/logo.png"
+            alt="Guns & Codes logo"
+            className="h-10 md:h-15 w-auto"
+          />
         </div>
+
 
         <div className="md:hidden text-2xl cursor-pointer" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}
