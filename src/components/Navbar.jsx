@@ -15,8 +15,8 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#191818] shadow-md text-white ">
-      
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#191818] shadow-md text-white"> 
+  
       <div className="flex items-center justify-between px-6 md:px-24 py-4">
         {/* Logo como imagen */}
         <div className="text-center">
