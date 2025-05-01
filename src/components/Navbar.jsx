@@ -1,40 +1,69 @@
-import React from 'react';
-
-import { FaFacebookF, FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaX, FaXTwitter } from 'react-icons/fa6';
+import React, { useState } from 'react';
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaGithub,
+  FaLinkedin,
+} from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Navbar = () => {
-  return (
-    <header className="sticky top-0 z-50 bg-[#191818] flex items-center justify-between px-8 md:px-24 py-4 shadow-md ">
-      
-      <nav className="flex-1">
-        <ul className="flex gap-4 md:gap-6 text-sm font-semibold  tracking-wide justify-start">
-          <li><a href="#inicio" className="hover:text-gray-400 transition-colors duration-300">Inicio</a></li>
-          <li><a href="#servicios" className="hover:text-gray-400 transition-colors duration-300">Servicios</a></li>
-          <li><a href="#about" className="hover:text-gray-400 transition-colors duration-300">About Us</a></li>
-          <li><a href="#entregables" className="hover:text-gray-400 transition-colors duration-300">Entregables</a></li>
-        </ul>
-      </nav>
+  const [menuOpen, setMenuOpen] = useState(false);
 
-      <div className="flex-1 flex justify-center">
-        <div className="text-center text-sm md:text-lg font-bold leading-tight tracking-widest animate-fade-in">
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  return (
+    <header className="sticky top-0 z-50 bg-[#191818] shadow-md text-white ">
+      
+      <div className="flex items-center justify-between px-6 md:px-24 py-4">
+        <div className="text-center text-sm md:text-lg font-bold leading-tight tracking-widest">
           <p>GUNS&</p>
           <p>CODES</p>
         </div>
+
+        <div className="md:hidden text-2xl cursor-pointer" onClick={toggleMenu}>
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </div>
+
+        <nav className="hidden md:flex gap-6 font-semibold text-sm uppercase tracking-wide">
+          <a href="#inicio" className="hover:text-gray-400 transition-colors">Inicio</a>
+          <a href="#servicios" className="hover:text-gray-400 transition-colors">Servicios</a>
+          <a href="#about" className="hover:text-gray-400 transition-colors">About Us</a>
+          <a href="#entregables" className="hover:text-gray-400 transition-colors">Entregables</a>
+        </nav>
+
+        <div className="hidden md:flex items-center gap-4 text-xl">
+          <a href="#" className="hover:text-gray-400"><FaFacebookF /></a>
+          <a href="#" className="hover:text-gray-400"><FaXTwitter /></a>
+          <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
+          <a href="https://github.com/ChercolesLucas/GunsAndCodes" className="hover:text-gray-400"><FaGithub /></a>
+          <a href="#" className="hover:text-gray-400"><FaLinkedin /></a>
+        </div>
       </div>
 
-      <div className="flex-1 flex justify-end items-center gap-4 md:gap-6 text-xl">
-        <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaFacebookF /></a>
-        <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaXTwitter /></a>
-        <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaInstagram /></a>
-        <a href="https://github.com/ChercolesLucas/GunsAndCodes" className="hover:text-gray-400 transition-colors duration-300"><FaGithub/></a>
-        <a href="#" className="hover:text-gray-400 transition-colors duration-300"><FaLinkedin /></a>
-      </div>
+      {menuOpen && (
+        <nav className="md:hidden flex flex-col items-center bg-[#1f1e1e] py-6 gap-4 text-sm font-semibold uppercase animate-fade-in">
+          <a onClick={toggleMenu} href="#inicio">Inicio</a>
+          <a onClick={toggleMenu} href="#servicios">Servicios</a>
+          <a onClick={toggleMenu} href="#about">About Us</a>
+          <a onClick={toggleMenu} href="#entregables">Entregables</a>
+          <div className="flex gap-4 pt-4 text-xl">
+            <a href="#"><FaFacebookF /></a>
+            <a href="#"><FaXTwitter /></a>
+            <a href="#"><FaInstagram /></a>
+            <a href="https://github.com/ChercolesLucas/GunsAndCodes"><FaGithub /></a>
+            <a href="#"><FaLinkedin /></a>
+          </div>
+        </nav>
+      )}
     </header>
   );
 };
 
 export default Navbar;
+
 
 
 

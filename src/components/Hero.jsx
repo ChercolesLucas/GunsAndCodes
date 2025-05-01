@@ -7,7 +7,8 @@ const Hero = () => {
 
     <div
       id="inicio"
-      className="relative flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-24 gap-12 md:gap-24 h-screen"
+      className="relative flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-24 gap-12 md:gap-24 min-h-screen md:py-32
+"
     >
 
       {/* Texto */}
@@ -22,7 +23,7 @@ const Hero = () => {
 
       <div className="flex-1 flex  justify-center animate-fade-in delay-300">
         <img
-          src="/vaquero.png"
+          src="/axelrose.png"
           alt="Aplicaciones móviles"
           className="max-w-[400px] md:max-w-[400px] drop-shadow-amber-50 scale-x-[-1] z-10"
         />

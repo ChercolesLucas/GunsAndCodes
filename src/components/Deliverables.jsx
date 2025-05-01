@@ -33,7 +33,7 @@ const Deliverables = () => {
               onClick={() => setSelectedPDF(item.pdf)}
               className="mt-4 text-sm font-semibold uppercase border px-4 py-2 rounded-full transition-all border-[#FF4F1F] text-[#FF4F1F] hover:bg-[#FF4F1F] hover:text-black"
             >
-              ABRIR
+              VER  
             </button>
           </div>
         ))}
@@ -41,25 +41,22 @@ const Deliverables = () => {
 
       {/* Iframe con PDF */}
       {selectedPDF && (
-  <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-  <div className="relative w-full max-w-5xl h-[80vh] animate-fade-in">
-    {/* Botón cerrar */}
-    <button
-      onClick={() => setSelectedPDF(null)}
-      className="absolute top-3 right-3 text-white/60 hover:text-white text-sm bg-black/50 backdrop-blur-md px-3 py-1 rounded"
-    >
-      Cerrar
-    </button>
-
-    {/* Iframe */}
-    <iframe
-      src={selectedPDF}
-      title="PDF Viewer"
-      className="w-full h-full rounded-lg border border-white/20 shadow-2xl"
-      allow="autoplay"
-    ></iframe>
-  </div>
-</div>
+        <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+          <div className="relative w-full max-w-5xl h-[80vh] animate-fade-in">
+            <button
+              onClick={() => setSelectedPDF(null)}
+              className="absolute top-3 right-3 text-white/60 hover:text-white text-sm bg-black/50 backdrop-blur-md px-3 py-1 rounded"
+            >
+              Cerrar
+            </button>
+            <iframe
+              src={selectedPDF}
+              title="PDF Viewer"
+              className="w-full h-full rounded-lg border border-white/20 shadow-2xl"
+              allow="autoplay"
+            ></iframe>
+          </div>
+        </div>
       )}
     </section>
   );

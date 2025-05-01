@@ -15,7 +15,8 @@
 
 
 body {
-
+    overflow-x: hidden;
+  
     background: #1A191A;
 }
 
