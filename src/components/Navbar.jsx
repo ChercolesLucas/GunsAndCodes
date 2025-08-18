@@ -1,11 +1,5 @@
 import React, { useState } from 'react';
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from 'react-icons/fa';
+import {FaFacebookF,FaInstagram,FaGithub,FaLinkedin,} from 'react-icons/fa';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 

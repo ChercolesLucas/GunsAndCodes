@@ -11,26 +11,21 @@ const deliverables = [
     },
     {
       id: "03",
-      title: "Requerimiento General del Cliente",
-      pdf: "https://drive.google.com/file/d/ID_DEL_PDF_3/preview",
+      title: "Modelado de Requerimientos Y Casos de Uso",
+      pdf: "https://drive.google.com/file/d/1_cu2Lh84CG6h-FvgZaihXudVVVsyQaNe/preview",
     },
     {
       id: "04",
-      title: "Modelado de Requerimientos",
-      pdf: "https://drive.google.com/file/d/ID_DEL_PDF_4/preview",
-    },
-    {
-      id: "05",
       title: "GANTT",
       pdf: "https://drive.google.com/file/d/ID_DEL_PDF_4/preview",
     },
     {
-      id: "06",
+      id: "05",
       title: "Matriz de Riesgos",
       pdf: "https://drive.google.com/file/d/ID_DEL_PDF_4/preview",
     },
     {
-      id: "07",
+      id: "06",
       title: "Diseño Tecnico",
       pdf: "https://drive.google.com/file/d/ID_DEL_PDF_4/preview",
     },
