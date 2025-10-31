@@ -5,6 +5,16 @@ import deliverables from "./deliverablesData";
 const Deliverables = () => {
   const [selectedPDF, setSelectedPDF] = useState(null);
 
+  // Función para manejar la descarga de archivos
+  const handleDownload = (url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", ""); // Fuerza la descarga del archivo
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       id="entregables"
@@ -16,7 +26,7 @@ const Deliverables = () => {
           Entregables
         </h2>
         <p className="text-white/70 text-lg leading-relaxed animate-fade-in delay-150">
-          En esta seccion se van a poder observar los entregables a medida del año.
+          En esta sección se van a poder observar los entregables a medida del año.
         </p>
       </div>
 
@@ -29,12 +39,21 @@ const Deliverables = () => {
           >
             <span className="text-4xl font-bold text-[#d1d1d1]">{item.id}</span>
             <h3 className="text-xl font-semibold my-2">{item.title}</h3>
-            <button
-              onClick={() => setSelectedPDF(item.pdf)}
-              className="mt-4 text-sm font-semibold uppercase border px-4 py-2 rounded-full transition-all border-[#FF4F1F] text-[#FF4F1F] hover:bg-[#FF4F1F] hover:text-black"
-            >
-              VER  
-            </button>
+            {item.type === "download" ? ( // Si el tipo es "download"
+              <button
+                onClick={() => handleDownload(item.url)} // Llama a la función de descarga
+                className="mt-6 text-sm font-semibold uppercase border px-4 py-2 rounded-full transition-all border-[#FF4F1F] text-[#FF4F1F] hover:bg-[#FF4F1F] hover:text-black"
+              >
+                DESCARGAR
+              </button>
+            ) : ( // Si no, es un PDF (o tipo por defecto)
+              <button
+                onClick={() => setSelectedPDF(item.url)}
+                className="mt-6 text-sm font-semibold uppercase border px-4 py-2 rounded-full transition-all border-[#FF4F1F] text-[#FF4F1F] hover:bg-[#FF4F1F] hover:text-black"
+              >
+                VER
+              </button>
+            )}
           </div>
         ))}
       </div>
@@ -64,4 +83,3 @@ const Deliverables = () => {
 
 export default Deliverables;
 
-  

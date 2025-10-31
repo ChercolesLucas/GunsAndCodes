@@ -24,16 +24,16 @@ const AboutUs = () => {
       </p>
 
       <h3 className="pt-[30px] text-[24px] md:text-[24px] font-bold mb-8 leading-tight animate-fade-in">
-        Nuestra Mision
+        Nuestra Misión
       </h3>
 
       <p className="max-w-4xl text-white/80 text-lg md:text-xl leading-relaxed animate-fade-in delay-150">
         Proporcionamos soluciones informáticas acordes a la necesidad de cada cliente, aportándoles calidad y valor.
-    	  Aspiramos a extender nuestro ámbito de trabajo a toda Latinoamérica para finales de 2025.
+          Aspiramos a extender nuestro ámbito de trabajo a toda Latinoamérica para finales de 2025.
       </p>
 
       <h3 className="pt-[30px] text-[24px] md:text-[24px] font-bold mb-8 leading-tight animate-fade-in">
-        Nuestra Vision
+        Nuestra Visión
       </h3>
 
       <p className="max-w-4xl text-white/80 text-lg md:text-xl leading-relaxed animate-fade-in delay-150">
@@ -42,7 +42,7 @@ const AboutUs = () => {
 
       
       <h3 className="pt-[30px] text-[24px] md:text-[24px] font-bold mb-8 leading-tight animate-fade-in">
-        ¿Que nos distingue?
+        ¿Qué nos distingue?
       </h3>
       <p className="max-w-4xl text-white/80 text-lg md:text-xl leading-relaxed animate-fade-in delay-150">
         Compromiso Local: Somos una empresa profundamente arraigada en la comunidad de Luján, lo que nos permite entender y abordar las necesidades únicas de nuestra región.
@@ -71,4 +71,3 @@ const AboutUs = () => {
 
 export default AboutUs;
 
-  
