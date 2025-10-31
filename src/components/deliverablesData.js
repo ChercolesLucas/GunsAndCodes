@@ -20,7 +20,7 @@ const deliverables = [
     {
       id: "04",
       title: "Calendarización de un proyecto",
-      url: "/public/ejemplo.txt", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
+      url: "/ejemplo.txt", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
       type: "download", // Nuevo tipo para indicar descarga
     },
     {
