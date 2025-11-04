@@ -20,14 +20,14 @@ const deliverables = [
     {
       id: "04",
       title: "Calendarización de un proyecto",
-      url: "/ejemplo.txt", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
+      url: "/CalendarizacionG&C.pod", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
       type: "download", // Nuevo tipo para indicar descarga
     },
     {
       id: "05",
       title: "Matriz de Riesgos",
-      url: "https://drive.google.com/file/d/ID_DEL_PDF_4/preview",
-      type: "pdf",
+      url: "/MatrizDeRiesgos.xlsx", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
+      type: "download",
     },
     {
       id: "06",
