@@ -26,7 +26,7 @@ const deliverables = [
     {
       id: "05",
       title: "Matriz de Riesgos",
-      url: "/Matrizderiesgos.xlsx", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
+      url: "/Matrizderiesgo.xlsx", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
       type: "download",
     },
     {
