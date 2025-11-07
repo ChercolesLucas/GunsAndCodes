@@ -20,19 +20,19 @@ const deliverables = [
     {
       id: "04",
       title: "Calendarización de un proyecto",
-      url: "/CalendarizacionG&C.pod", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
-      type: "download", // Nuevo tipo para indicar descarga
+      url: "/CalendarizacionG&C.pod", 
+      type: "download", 
     },
     {
       id: "05",
       title: "Matriz de Riesgos",
-      url: "/Matrizderiesgo.xlsx", // Asegúrate de que este archivo exista en tu carpeta 'public/files'
+      url: "/Matrizderiesgo.xlsx", 
       type: "download",
     },
     {
       id: "06",
       title: "Informe de avance",
-      url: "https://drive.google.com/file/d/ID_DEL_PDF_4/preview",
+      url: "https://drive.google.com/file/d/1POSLGP9CSaqJm0CJRCbxVOAMLAY1ZU5b/preview",
       type: "pdf",
     },
   ];

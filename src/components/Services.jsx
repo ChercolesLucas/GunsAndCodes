@@ -17,8 +17,7 @@ const Services = () => {
       {/* Columna izquierda - Texto */}
       <div className="flex-1">
         <h2 className="text-[32px] md:text-[48px] font-bold mb-10 leading-tight animate-fade-in">
-          Nuestros<br className="hidden md:block" />
-          Servicios
+          Nuestros Servicios
         </h2>
         <div className="space-y-5 text-lg md:text-xl animate-fade-in delay-150">
           {services.map((item, index) => (

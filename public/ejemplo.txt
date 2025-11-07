@@ -1,9 +1,0 @@
-CREATE TABLE Vehiculos (
-	id SERIAL PRIMARY KEY,
-
-	patente VARCHAR(7) NOT NULL UNIQUE, 
-	modelo VARCHAR(50) NOT NULL,
-	anio INTEGER NOT NULL,
-	kilometraje INTERGER NOT NULL,
-	color VARCHAR(15),
-	);
